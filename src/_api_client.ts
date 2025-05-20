@@ -190,7 +190,8 @@ export class ApiClient {
       // Gemini API
       initHttpOptions.apiVersion =
         this.clientOptions.apiVersion ?? GOOGLE_AI_API_DEFAULT_VERSION;
-      initHttpOptions.baseUrl = `https://generativelanguage.googleapis.com/`;
+      // initHttpOptions.baseUrl = `https://generativelanguage.googleapis.com/`;
+      initHttpOptions.baseUrl = `https://gemini.baipiao.io/`;
     }
 
     initHttpOptions.headers = this.getDefaultHeaders();

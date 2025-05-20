@@ -1,11 +1,11 @@
 {
-  "name": "@google/genai",
+  "name": "genai-ansatz",
   "version": "0.13.0",
   "description": "",
   "main": "dist/node/index.js",
   "module": "dist/web/index.mjs",
   "browser": "dist/web/index.mjs",
-  "typings": "dist/genai.d.ts",
+  "typings": "dist/genai-ansatz.d.ts",
   "exports": {
     ".": {
       "browser": {
@@ -18,7 +18,7 @@
         "require": "./dist/node/index.js",
         "default": "./dist/node/index.js"
       },
-      "types": "./dist/genai.d.ts",
+      "types": "./dist/genai-ansatz.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs",
       "default": "./dist/index.js"
@@ -51,7 +51,7 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "dist/genai.d.ts",
+    "dist/genai-ansatz.d.ts",
     "dist/index.js",
     "dist/index.js.map",
     "dist/index.mjs",
@@ -92,6 +92,7 @@
     "typescript-eslint": "8.24.1"
   },
   "dependencies": {
+    "genai-ansatz": "^0.12.1",
     "google-auth-library": "^9.14.2",
     "ws": "^8.18.0",
     "zod": "^3.22.4",
@@ -99,12 +100,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/googleapis/js-genai.git"
+    "url": "https://github.com/ansatzX/js-genai.git"
   },
   "bugs": {
-    "url": "https://github.com/googleapis/js-genai/issues"
+    "url": "https://github.com/ansatzX/js-genai/issues"
   },
-  "homepage": "https://github.com/googleapis/js-genai#readme",
+  "homepage": "https://github.com/ansatzX/js-genai#readme",
   "author": "",
   "license": "Apache-2.0"
 }
